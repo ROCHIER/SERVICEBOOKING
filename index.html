@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>ROCHIER BOOKING SERVICE</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background-image:url(background2.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .logo{
+            width: 50px;
+            cursor: pointer;
+        }
+        .navbar{
+            width: 85%;
+            margin: auto;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+        }
+        .nabvbar ul li a{
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), yellow),
+            no-repeat center center fixed;
+            background-size: cover;
+            font-family: Verdana;
+        }
+
+        .menu li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 25px;
+            transition: .4s ease;
+            
+        }
+
+        .menu li a:hover {
+            color: #red;
+            padding: 5px 10px;
+            border: 2px solid #fff;
+        }
+
+        .home {
+            height: 400px;
+            padding: 70px;
+        }
+
+        .title-1 {
+            font-size: 56px;
+            color: #fff;
+            font-weight: 600;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .home h1{
+            font-size: 70px;
+            margin-top: 80px;
+            text-align: center;
+            color: orange;
+        }
+        .home p {
+            color: #fff;
+            font-size: 45px;
+            padding-top: 8px;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .home button {
+            height: 55px;
+            color: #fff;
+            background: orange;
+            font-size: 25px;
+            padding: 5px 30px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            position: absolute;
+            top: 60%;
+            left: 43%;
+            transition: .4s ease;
+            cursor: pointer;
+        }
+
+        .home button:hover {
+            background: none;
+            border: 2px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="C:\Users\Kristine Joy\Desktop\HTML\images\logo.png" class="logo">
+            <ul class="menu">
+                <li><a href="C:\Users\Kristine Joy\Desktop\HTML\ROCHIER HOTEL BOOKING SERVICE.html">HOME</a></li>
+                <li><a href="C:\Users\Kristine Joy\Desktop\HTML\images\3.png" target="_self">ABOUT US</a></li>
+                <li><a href="C:\Users\Kristine Joy\Desktop\HTML\images\FACILITIES.png" target="_self">FACILITIES</a></li>
+                <li><a href="C:\Users\Kristine Joy\Desktop\HTML\images\Hotels Business Website in Brown White Modern Elegance Style.png" target="_self">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        <div class="home">
+            <h1>ROCHIER HOTEL AND RESORT</h1>
+            <p> Enjoy your day in our HOTEL!</p>
+            <button type="button" onclick="location.href='file:///C:/Users/Kristine%20Joy/Desktop/ROCHIER-Booking-services.html'">BOOK NOW!</button>
+        </div>
+    </div>
+</body>
+</html>
